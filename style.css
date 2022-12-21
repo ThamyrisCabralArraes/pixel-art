@@ -10,6 +10,8 @@
     sans-serif;
   color: #323673;
   text-shadow: 5px 5px 5px #8c1f66;
+  border: 5px dotted #8c1f66;
+  width: 200px;
 }
 
 body {
@@ -62,12 +64,14 @@ body {
   padding: 10px;
   margin-top: 10px;
   border-radius: 10px;
+  font-size: 20px;
   box-shadow: 5px 5px #8c1f66;
 }
 
 #button-random-color:hover {
   background-color: rgb(243, 236, 168);
   color: #323673;
+  transform: scale(1.2);
 }
 
 #clear-board {
@@ -75,13 +79,15 @@ body {
   color: white;
   border: none;
   padding: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
   border-radius: 10px;
+  font-size: 20px;
 }
 
 #clear-board:hover {
   background-color: rgb(243, 236, 168);
   color: #323673;
+  transform: scale(1.4);
 }
 
 #generate-board {
@@ -92,9 +98,11 @@ body {
   margin-top: 10px;
   border-radius: 10px;
   margin: 10px;
+  font-size: 20px;
 }
 
 #generate-board:hover {
   background-color: rgb(243, 236, 168);
   color: #323673;
+  transform: scale(1.2);
 }
